@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Космическая викторина</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Forum&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <form>
+        <div>
+            <h1>КОСМИЧЕСКАЯ ВИКТОРИНА</h1>
+        </div>
+        <div class="question">
+            <label>Вопрос 1. Какое животное первым попало на орбиту Земли?</label>
+            <div class="variants">
+                <span><input type="radio" name="question1">Лягушка</span>
+                <span><input type="radio" name="question1">Таракан</span>
+                <span><input type="radio" name="question1" id="answerOne">Собака</span>
+                <span><input type="radio" name="question1">Хомяк</span>
+            </div>
+        </div>
+
+        <div class="question">
+            <label>Вопрос 2. За какое время Земля делает 1 оборот вокруг Солнца?</label>
+            <div class="variants">
+                <span><input type="radio" name="question2">365 суток</span>
+                <span><input type="radio" name="question2">24 часа</span>
+                <span><input type="radio" name="question2">3 месяца</span>
+                <span><input type="radio" name="question2" id="answerTwo">365 суток и 6 часов</span>
+            </div>
+        </div>
+
+        <div class="question">
+            <label>Вопрос 3. В каком году Юрий Гагарин совершил полет в космическое пространство?</label>
+            <div class="variants">
+                <span><input type="radio" name="question3" id="answerThree">1961</span>
+                <span><input type="radio" name="question3">1957</span>
+                <span><input type="radio" name="question3">1968</span>
+                <span><input type="radio" name="question3">1969</span>
+            </div>
+        </div>
+
+        <div class="question">
+            <label>Вопрос 4. Кто стал первым человеком, ступившим на Луну?</label>
+            <div class="variants">
+                <span><input type="radio" name="question4">Валентина Терешкова</span>
+                <span><input type="radio" name="question4" id="answerFour">Нил Армстронг</span>
+                <span><input type="radio" name="question4">Джон Янг</span>
+                <span><input type="radio" name="question4">Алексей Леонов</span>
+            </div>
+        </div>
+
+        <div class="question">
+            <label>Вопрос 5. Какая планета самая горячая в нашей Солнечной системе?</label>
+            <div class="variants">
+                <span><input type="radio" name="question5">Марс</span>
+                <span><input type="radio" name="question5" id="answerFive">Венера</span>
+                <span><input type="radio" name="question5">Нептун</span>
+                <span><input type="radio" name="question5">Меркурий</span>
+            </div>
+        </div>
+
+        <div class="question">
+            <label>Вопрос 6. Какого цвета холодные звезды?</label>
+            <div class="variants">
+                <span><input type="radio" name="question6">Зеленый</span>
+                <span><input type="radio" name="question6">Голубой</span>
+                <span><input type="radio" name="question6">Белый</span>
+                <span><input type="radio" name="question6" id="answerSix">Красный</span>
+            </div>
+        </div>
+
+        <div class="question">
+            <label>Вопрос 7. Как называется Галактика, в которой мы живем?</label>
+            <div class="variants">
+                <span><input type="radio" name="question7">Андромеда</span>
+                <span><input type="radio" name="question7">Галактика Треугольника</span>
+                <span><input type="radio" name="question7" id="answerSeven">Млечный Путь</span>
+                <span><input type="radio" name="question7">Магелланово Облако</span>
+            </div>
+        </div>
+
+        <div class="result">
+            <button type="submit" class="btn">Узнать результаты</button>
+            <p id="show"></p>
+        </div>
+
+        
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
